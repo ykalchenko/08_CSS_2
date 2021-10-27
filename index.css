@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+* {
+  transition: all .1s ease-in;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3B3F45;
+  margin-left: auto;
+  margin-right: auto;
+  border: 23px solid #ffffff;
+  width: 1240px;
+}
+
+header {
+  background-color: #4A4F56;
+  color: #EB7E7F;
+  text-align: center;
+  margin: 0px;
+}
+
+main {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+}
+
+footer {
+  width: 800px;
+  margin: auto;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  padding-top: 10px;
+  margin-block-end: -8px;
+}
+
+h5::after {
+  padding-bottom: 11px;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+li {
+  display: block;
+  height: auto;
+  color: #ffffff;
+  padding: 20px 10px;
+}
+
+li.pickles, li.oranges, li.bentos {
+  background-color: #88839E;
+}
+
+li.apples, li.plates, li.bottle {
+  background-color: #7a7593;
+}
+
+li:hover {
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  background-color: #625E77;
+}
+
+li:active {
+  background-color: #EB7E7F;
+}
+
+:checked~span {
+  text-decoration: line-through;
+  color: #a3a0b1;
+}
+
+/*.custom-checkbox {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.custom-checkbox:active, .custom-checkbox:checked:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.custom-checkbox:checked {
+  background-color: #e9ecee;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #99a1a7;
+}
+
+.custom-checkbox:checked:after {
+  content: '\2714';
+  font-size: 18px;
+  position: absolute;
+  top: -3px;
+  left: 2px;
+  color: #000000;
+}*/
+
+.small {
+  font-size: 0.6em;
+}
+
+.bon-appetit {
+  height: 63px;
+  background-color: #4A4F56;
+  color: #EB7E7F;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 34px;
+  padding: 10px;
+}
