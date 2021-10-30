@@ -40,6 +40,11 @@ h1 {
   margin-block-end: -8px;
 }
 
+h5 {
+  font-size: 20px;
+  padding-bottom: 11px;
+}
+
 h5::after {
   padding-bottom: 11px;
 }
