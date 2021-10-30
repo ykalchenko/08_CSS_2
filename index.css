@@ -53,7 +53,7 @@ li {
   display: block;
   height: auto;
   color: #ffffff;
-  padding: 20px 10px;
+  padding: 15px 15px;
 }
 
 li.pickles, li.oranges, li.bentos {
@@ -79,7 +79,7 @@ li:active {
   color: #a3a0b1;
 }
 
-/*.custom-checkbox {
+.custom-checkbox {
   -webkit-appearance: none;
   background-color: #fafafa;
   border: 1px solid #cacece;
@@ -108,7 +108,7 @@ li:active {
   top: -3px;
   left: 2px;
   color: #000000;
-}*/
+}
 
 .small {
   font-size: 0.6em;
